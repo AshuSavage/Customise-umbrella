@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightpink; /* Default background color */
+    margin: 0;
+  }
+  
+  .customizer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .umbrella-container {
+    position: relative;
+  }
+  
+  #umbrella {
+    width: 300px;
+    height: auto;
+  }
+  
+  #logo-preview {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100px;
+    max-height: 50px;
+    display: none;
+  }
+  
+  .controls {
+    text-align: center;
+  }
+  
+  .controls h2 {
+    margin-bottom: 20px;
+  }
+  
+  .color-swatches {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .color-swatch.pink {
+    background-color: pink;
+  }
+  
+  .color-swatch.blue {
+    background-color: blue;
+  }
+  
+  .color-swatch.yellow {
+    background-color: yellow;
+  }
+  
+  #upload-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff80bf; /* Default background color */
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; /* Ensure no underline for link-like behavior */
+    border: none; /* Remove default button border */
+    outline: none; /* Remove outline on focus */
+  }
+  
+  #upload-label:hover {
+    opacity: 0.8;
+  }
+  
+  #upload-label img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
